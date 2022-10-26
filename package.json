@@ -1,5 +1,5 @@
 {
-  "name": "dnd",
+  "name": "simple-todos-react",
   "private": true,
   "scripts": {
     "start": "meteor run",
@@ -9,9 +9,21 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.17.9",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@fontsource/roboto": "^4.5.8",
+    "@mui/icons-material": "^5.10.6",
+    "@mui/material": "^5.10.7",
+    "@mui/styled-engine-sc": "^5.10.6",
+    "@react-icons/all-files": "^4.1.0",
+    "@trendmicro/react-sidenav": "^0.5.0",
+    "bcrypt": "^5.0.1",
     "meteor-node-stubs": "^1.2.1",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.4.0",
+    "react-router-dom": "^6.4.1",
+    "styled-components": "^5.3.6"
   },
   "meteor": {
     "mainModule": {
@@ -19,5 +31,10 @@
       "server": "server/main.js"
     },
     "testModule": "tests/main.js"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "eslint": "^8.18.0",
+    "eslint-plugin-meteor": "^7.3.0"
   }
 }
